@@ -143,21 +143,21 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 <div class="testimonial-slider">
                     <div class="testimonial active">
-                        <img src="/placeholder.svg?height=100&width=100" alt="Priya Sharma">
+                        <img src="images/b1.jpg?height=100&width=100" alt="Priya Sharma">
                         <p>"The Pradhan Mantri Matru Vandana Yojana provided me with financial support during my pregnancy, allowing me to focus on my health and my baby's wellbeing."</p>
                         <div class="name">Priya Sharma</div>
                         <div class="location">Delhi</div>
                     </div>
                     
                     <div class="testimonial">
-                        <img src="/placeholder.svg?height=100&width=100" alt="Lakshmi Devi">
+                        <img src="images/b2.jpg?height=100&width=100" alt="Lakshmi Devi">
                         <p>"Thanks to Janani Suraksha Yojana, I was able to deliver my baby safely at a hospital. The financial assistance covered all my medical expenses."</p>
                         <div class="name">Lakshmi Devi</div>
                         <div class="location">Tamil Nadu</div>
                     </div>
                     
                     <div class="testimonial">
-                        <img src="/placeholder.svg?height=100&width=100" alt="Fatima Begum">
+                        <img src="images/b3.jpg?height=100&width=100" alt="Fatima Begum">
                         <p>"Ayushman Bharat - PMJAY covered my cancer treatment expenses. I couldn't have afforded the treatment otherwise. I'm forever grateful."</p>
                         <div class="name">Fatima Begum</div>
                         <div class="location">Uttar Pradesh</div>
