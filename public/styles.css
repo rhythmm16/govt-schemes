@@ -115,7 +115,7 @@ main {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/placeholder.svg?height=800&width=1600")
+  background: linear-gradient(rgba(249, 2, 92, 0.6), rgba(246, 5, 166, 0.6)), url("/placeholder.svg?height=800&width=1600")
     center / cover no-repeat;
   height: 500px;
   display: flex;

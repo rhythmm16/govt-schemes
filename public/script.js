@@ -50,12 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
       case "resources":
         loadResourcesPage()
         break
-      case "about":
-        loadAboutPage()
-        break
-      case "contact":
-        loadContactPage()
-        break
       default:
         loadHomePage()
     }
