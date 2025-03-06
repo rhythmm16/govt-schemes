@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
                 
+                
                 <div class="text-center">
                     <a href="#" class="btn btn-secondary" data-page="schemes">View All Schemes</a>
                 </div>
@@ -285,6 +286,78 @@ document.addEventListener("DOMContentLoaded", () => {
                             <a href="#" class="btn scheme-details-btn" data-scheme="amb">Learn More</a>
                         </div>
                     </div>
+                    <div class="scheme-card" data-category="maternal">
+    <img src="images/suman.jpeg?height=300&width=500" alt="Surakshit Matritva Aashwasan">
+    <div class="scheme-content">
+        <h3>Surakshit Matritva Aashwasan (SUMAN)</h3>
+        <p>Aim to provide assured, dignified, and quality healthcare to pregnant women, mothers, and newborns free of cost.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="suman">Learn More</a>
+    </div>
+</div>
+
+<div class="scheme-card" data-category="women-empowerment">
+    <img src="images/shakti.jpeg?height=300&width=500" alt="Mahila Shakti Kendra">
+    <div class="scheme-content">
+        <h3>Mahila Shakti Kendra (MSK)</h3>
+        <p>A scheme to empower rural women through community participation and provide them with access to welfare services.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="msk">Learn More</a>
+    </div>
+</div>
+
+<div class="scheme-card" data-category="women-safety">
+    <img src="images/onestop.jpeg?height=300&width=500" alt="One Stop Centre Scheme">
+    <div class="scheme-content">
+        <h3>One Stop Centre Scheme</h3>
+        <p>Provides support to women facing violence, offering medical aid, police assistance, legal counseling, and shelter.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="osc">Learn More</a>
+    </div>
+</div>
+
+<div class="scheme-card" data-category="women-empowerment">
+    <img src="images/beti.jpeg?height=300&width=500" alt="Beti Bachao Beti Padhao">
+    <div class="scheme-content">
+        <h3>Beti Bachao Beti Padhao (BBBP)</h3>
+        <p>A national initiative to prevent female feticide, promote gender equality, and encourage the education of girls.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="bbbp">Learn More</a>
+    </div>
+</div>
+
+<div class="scheme-card" data-category="financial-support">
+    <img src="images/sukanya.png?height=300&width=500" alt="Sukanya Samriddhi Yojana">
+    <div class="scheme-content">
+        <h3>Sukanya Samriddhi Yojana (SSY)</h3>
+        <p>A savings scheme for the girl child with high interest rates, aimed at securing their future education and marriage expenses.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="ssy">Learn More</a>
+    </div>
+</div>
+
+<div class="scheme-card" data-category="women-empowerment">
+    <img src="images/working.jpg?height=300&width=500" alt="Working Women Hostel Scheme">
+    <div class="scheme-content">
+        <h3>Working Women Hostel Scheme</h3>
+        <p>Provides safe and affordable accommodation for working women and their dependent children across India.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="wwh">Learn More</a>
+    </div>
+</div>
+
+<div class="scheme-card" data-category="financial-support">
+    <img src="images/mudra.png?height=300&width=500" alt="MUDRA Yojana for Women">
+    <div class="scheme-content">
+        <h3>MUDRA Yojana for Women</h3>
+        <p>Provides financial support to women entrepreneurs for starting and expanding small businesses through collateral-free loans.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="mudra">Learn More</a>
+    </div>
+</div>
+
+<div class="scheme-card" data-category="women-welfare">
+    <img src="images/indra.png?height=300&width=500" alt="Indira Gandhi Matritva Sahyog Yojana">
+    <div class="scheme-content">
+        <h3>Indira Gandhi Matritva Sahyog Yojana</h3>
+        <p>A conditional maternity benefit scheme providing financial assistance to pregnant and lactating women for nutrition and health.</p>
+        <a href="#" class="btn scheme-details-btn" data-scheme="igmsy">Learn More</a>
+    </div>
+</div>
+
                 </div>
             </section>
         `
@@ -458,6 +531,311 @@ document.addEventListener("DOMContentLoaded", () => {
           "Register with the Anganwadi Worker",
           "Participate in Village Health Sanitation and Nutrition Days",
           "Attend community-based events organized under POSHAN Abhiyaan",
+        ],
+      },
+      nhm: {
+        title: "National Health Mission (NHM)",
+        ministry: "Ministry of Health and Family Welfare",
+        launched: "2013",
+        website: "https://nhm.gov.in/",
+        description:
+          "The National Health Mission (NHM) aims to provide accessible, affordable, and quality healthcare to rural and vulnerable populations, with a focus on strengthening public health systems.",
+        eligibility: [
+          "All citizens, especially those in rural and economically weaker sections",
+          "Priority given to pregnant women, children, and those with non-communicable diseases",
+        ],
+        benefits: [
+          "Strengthening primary, secondary, and tertiary healthcare facilities",
+          "Free maternal and child healthcare services",
+          "Disease control programs",
+          "Financial support for healthcare infrastructure",
+        ],
+        applicationSteps: [
+          "Visit the nearest government health facility or NHM center",
+          "Enroll in specific programs based on eligibility",
+          "Undergo health check-ups and avail benefits as per the scheme",
+        ],
+      },
+      
+      fpp: {
+        title: "Family Planning Program",
+        ministry: "Ministry of Health and Family Welfare",
+        launched: "1952",
+        website: "https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=821&lid=222",
+        description:
+          "India's Family Planning Program provides comprehensive services, including contraception, reproductive health education, and sterilization procedures, to help control population growth and improve maternal health.",
+        eligibility: [
+          "All men and women of reproductive age",
+          "Special incentives for Below Poverty Line (BPL) families and women opting for sterilization",
+        ],
+        benefits: [
+          "Free contraceptive services",
+          "Monetary incentives for sterilization procedures",
+          "Awareness programs on reproductive health",
+          "Free maternal and child health services",
+        ],
+        applicationSteps: [
+          "Visit a government health center or family planning clinic",
+          "Consult a healthcare professional about suitable contraceptive methods",
+          "Undergo necessary medical procedures if opting for sterilization",
+        ],
+      },
+      
+      laqshya: {
+        title: "LaQshya (Labour Room Quality Improvement Initiative)",
+        ministry: "Ministry of Health and Family Welfare",
+        launched: "2017",
+        website: "https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=1307&lid=690",
+        description:
+          "LaQshya is a quality improvement initiative to enhance maternity care in labor rooms and maternity operation theatres to reduce maternal and newborn mortality rates.",
+        eligibility: [
+          "All pregnant women receiving maternity care in government hospitals",
+          "Healthcare facilities providing labor room and maternity services",
+        ],
+        benefits: [
+          "Improved maternity care standards",
+          "Training programs for healthcare providers",
+          "Enhanced monitoring and evaluation of labor rooms",
+          "Reduced maternal and neonatal mortality rates",
+        ],
+        applicationSteps: [
+          "Access maternity care at government hospitals enrolled under LaQshya",
+          "Participate in quality monitoring programs",
+          "Utilize improved healthcare facilities for safer childbirth",
+        ],
+      },
+      
+      amb: {
+        title: "Anemia Mukt Bharat (AMB)",
+        ministry: "Ministry of Health and Family Welfare",
+        launched: "2018",
+        website: "https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=1448&lid=797",
+        description:
+          "Anemia Mukt Bharat is a national campaign to reduce the prevalence of anemia among children, adolescents, and women of reproductive age by implementing preventive and curative measures.",
+        eligibility: [
+          "Children (6 months-19 years)",
+          "Pregnant and lactating women",
+          "Women of reproductive age (15-49 years)",
+        ],
+        benefits: [
+          "Weekly Iron and Folic Acid Supplementation (WIFS) program",
+          "Biannual deworming for children and adolescents",
+          "Intensified anemia testing and treatment",
+          "Nutritional education and awareness programs",
+        ],
+        applicationSteps: [
+          "Visit the nearest government health center or Anganwadi",
+          "Enroll in iron and folic acid supplementation programs",
+          "Undergo regular anemia testing and receive treatment if necessary",
+        ],
+      },
+      suman: {
+        title: "Surakshit Matritva Aashwasan (SUMAN)",
+        ministry: "Ministry of Health and Family Welfare",
+        launched: "2019",
+        website: "https://suman.mohfw.gov.in/",
+        description:
+          "SUMAN ensures quality healthcare for pregnant women, mothers, and newborns free of cost, with zero tolerance for denial of services at public health facilities.",
+        eligibility: [
+          "All pregnant women and newborns in public health facilities",
+          "No financial barrier for accessing services",
+          "Priority given to poor and high-risk cases",
+        ],
+        benefits: [
+          "Free antenatal check-ups and delivery care",
+          "Free medicines, diagnostics, and transport",
+          "Zero expense access to C-sections if needed",
+          "Newborn care including vaccinations and nutritional support",
+        ],
+        applicationSteps: [
+          "Visit the nearest public health facility",
+          "Register with ASHA worker or Anganwadi Center",
+          "Ensure periodic antenatal check-ups for continued benefits",
+        ],
+      },
+      msk: {
+        title: "Mahila Shakti Kendra (MSK)",
+        ministry: "Ministry of Women and Child Development",
+        launched: "2017",
+        website: "https://socialwelfare.vikaspedia.in/viewcontent/social-welfare/women-and-child-development/women-development-1/pradhan-mantri-mahila-shakti-kendra?lgn=en",
+        description:
+          "MSK provides community support and empowerment for rural women through access to welfare services and capacity-building initiatives.",
+        eligibility: [
+          "All rural women, especially those from underprivileged backgrounds",
+          "Priority for self-help groups and women-led enterprises",
+        ],
+        benefits: [
+          "Skill development and digital literacy programs",
+          "Legal aid and counseling services",
+          "Access to government welfare schemes",
+          "Entrepreneurship support and employment training",
+        ],
+        applicationSteps: [
+          "Visit the nearest Mahila Shakti Kendra",
+          "Register with local authorities",
+          "Participate in training and empowerment programs",
+        ],
+      },
+      osc: {
+        title: "One Stop Centre Scheme",
+        ministry: "Ministry of Women and Child Development",
+        launched: "2015",
+        website: "https://www.myscheme.gov.in/schemes/osc",
+        description:
+          "The One Stop Centre Scheme provides integrated support for women facing violence by offering medical aid, legal assistance, and shelter services.",
+        eligibility: [
+          "Women affected by violence in any form",
+          "No income or caste barriers",
+          "Available for minors through guardians",
+        ],
+        benefits: [
+          "Immediate medical assistance and police intervention",
+          "Legal aid and case management support",
+          "Counseling and mental health support",
+          "Emergency shelter for women in distress",
+        ],
+        applicationSteps: [
+          "Visit the nearest One Stop Centre or call the women's helpline (181)",
+          "Receive immediate assistance and legal aid",
+          "Access counseling and rehabilitation support",
+        ],
+      },
+      bbbp: {
+        title: "Beti Bachao Beti Padhao (BBBP)",
+        ministry: "Ministry of Women and Child Development",
+        launched: "2015",
+        website: "https://www.pmindia.gov.in/hi/government_tr_rec/%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80-%E0%A4%AC%E0%A4%9A%E0%A4%BE%E0%A4%93-%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80-%E0%A4%AA%E0%A4%A2%E0%A4%BC%E0%A4%BE%E0%A4%93-%E0%A4%AC%E0%A4%BE%E0%A4%B2/#:~:text=%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80%20%E0%A4%AC%E0%A4%9A%E0%A4%BE%E0%A4%93%20%E0%A4%AC%E0%A5%87%E0%A4%9F%E0%A5%80%20%E0%A4%AA%E0%A4%A2%E0%A4%BC%E0%A4%BE%E0%A4%93%20%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE,%E0%A4%AE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%B2%E0%A4%AF%20%E0%A4%A4%E0%A4%A5%E0%A4%BE%20%E0%A4%AE%E0%A4%BE%E0%A4%A8%E0%A4%B5%20%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%20%E0%A4%AE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%B2%E0%A4%AF%E0%A5%A4",
+        description:
+          "BBBP aims to prevent gender-biased sex selection and promote girl child education to ensure their survival and protection.",
+        eligibility: [
+          "All girl children in India",
+          "Special focus on districts with low child sex ratio",
+        ],
+        benefits: [
+          "Financial incentives for girl child education",
+          "Community engagement and awareness campaigns",
+          "Improved access to healthcare and nutrition",
+          "Scholarship programs for meritorious girls",
+        ],
+        applicationSteps: [
+          "Visit the nearest Anganwadi or local administration office",
+          "Enroll the girl child for educational benefits",
+          "Participate in awareness programs and workshops",
+        ],
+      },
+      ssy: {
+        title: "Sukanya Samriddhi Yojana (SSY)",
+        ministry: "Ministry of Finance",
+        launched: "2015",
+        website: "https://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89",
+        description:
+          "SSY is a savings scheme for the girl child offering high-interest rates, ensuring financial security for education and marriage.",
+        eligibility: [
+          "Parents/guardians of a girl child below 10 years of age",
+          "One account per girl child (maximum of two accounts per family)",
+        ],
+        benefits: [
+          "Attractive interest rate (higher than savings accounts)",
+          "Tax benefits under Section 80C of the Income Tax Act",
+          "Maturity after 21 years or for higher education after 18 years",
+        ],
+        applicationSteps: [
+          "Visit a post office or authorized bank",
+          "Submit KYC documents and birth certificate of the girl child",
+          "Deposit an initial amount (minimum ₹250 per year)",
+        ],
+      },
+      mudra: {
+        title: "MUDRA Yojana for Women",
+        ministry: "Ministry of Finance",
+        launched: "2015",
+        website: "https://www.mudra.org.in/mudra-kahaniyaan-v2/women.html?gclid=CjwKCAiAirb_BRBNEiwALHlnD6AEN3aP9wOlfIcLdG6pc2GRWnorlubunGGXL5iqumfMKlsVdg3xbxoCyecQAvD_BwE/page/2",
+        description:
+          "The MUDRA scheme provides collateral-free loans to women entrepreneurs to start or expand their businesses.",
+        eligibility: [
+          "Women entrepreneurs in micro and small enterprises",
+          "Startups and small businesses in the service and manufacturing sector",
+        ],
+        benefits: [
+          "Loans up to ₹10 lakhs under Shishu, Kishor, and Tarun categories",
+          "No collateral required",
+          "Lower interest rates for women-led businesses",
+        ],
+        applicationSteps: [
+          "Visit a MUDRA-participating bank or NBFC",
+          "Fill out the loan application with business details",
+          "Submit KYC, business plan, and income proof",
+        ],
+      },
+      working_women_hostel: {
+        title: "Working Women Hostel Scheme",
+        ministry: "Ministry of Women and Child Development",
+        launched: "1972",
+        website: "https://www.myscheme.gov.in/schemes/swwh",
+        description:
+          "This scheme provides safe and affordable accommodation to working women who need to live away from their families due to professional commitments.",
+        eligibility: [
+          "Working women whose income does not exceed a specified limit",
+          "Single, divorced, widowed, or separated women",
+          "Women undergoing training for employment (subject to a specific duration limit)",
+        ],
+        benefits: [
+          "Affordable hostel accommodation",
+          "Daycare facilities for children of working women",
+          "Security and basic amenities",
+        ],
+        applicationSteps: [
+          "Locate the nearest government-approved Working Women Hostel",
+          "Submit application along with employment proof and income certificate",
+          "Complete verification process and pay nominal hostel charges",
+        ],
+      },
+      mudra_yojna: {
+        title: "Pradhan Mantri Mudra Yojana (PMMY)",
+        ministry: "Ministry of Finance",
+        launched: "2015",
+        website: "https://www.mudra.org.in/",
+        description:
+          "PMMY provides financial support to micro and small women entrepreneurs through Mudra loans for business expansion and self-employment.",
+        eligibility: [
+          "Women entrepreneurs running small businesses such as handicrafts, tailoring, beauty parlors, etc.",
+          "Self-employed women and small business owners",
+          "Women seeking to expand or start a new business",
+        ],
+        benefits: [
+          "Loans up to ₹10 lakh without collateral",
+          "Three loan categories: Shishu (up to ₹50,000), Kishor (₹50,000 to ₹5 lakh), and Tarun (₹5 lakh to ₹10 lakh)",
+          "Flexible repayment options",
+        ],
+        applicationSteps: [
+          "Visit a bank, microfinance institution, or NBFC that offers Mudra loans",
+          "Fill out the Mudra loan application form",
+          "Submit business plan and required documents (Aadhaar, PAN, proof of business)",
+          "Loan disbursement upon approval",
+        ],
+      },
+      indira_gandhi_matrivita: {
+        title: "Indira Gandhi Matritva Sahyog Yojana (IGMSY)",
+        ministry: "Ministry of Women and Child Development",
+        launched: "2010",
+        website: "https://pib.gov.in/newsite/PrintRelease.aspx?relid=101782",
+        description:
+          "IGMSY is a conditional maternity benefit scheme providing financial assistance to pregnant and lactating mothers to improve maternal health and reduce infant mortality.",
+        eligibility: [
+          "Pregnant and lactating women above 19 years",
+          "Women who give birth to their first two live children",
+          "Excludes those in regular employment of the government or public sector",
+        ],
+        benefits: [
+          "Cash transfer of ₹6,000 per beneficiary",
+          "Paid in installments linked to health and nutrition indicators",
+          "Encourages institutional delivery and post-natal care",
+        ],
+        applicationSteps: [
+          "Register with the nearest Anganwadi Center or health facility",
+          "Submit pregnancy registration details",
+          "Fulfill health check-ups and child immunization requirements",
+          "Receive installments upon meeting eligibility criteria",
         ],
       },
     }
